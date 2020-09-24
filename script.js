@@ -11,11 +11,11 @@ $(document).ready(function() {
   var POINT_Y_POSTFIX = ''; // postfix for x values, eg ' kg'
 
   var POINT_NAME = 'district'; // point names that appear in tooltip
-  var POINT_COLOR = 'rgba(0,0,255,0.7)'; // point color, eg `black` or `rgba(10, 100, 44, 0.8)`
+  var POINT_COLOR = 'rgba(0,0,255,0.7)'; // eg `black` or `rgba(10,100,44,0.8)`
   var POINT_RADIUS = 5; // radius of each data point
 
-  var X_AXIS = 'Median Household Income, USD';  // x-axis label and label in tooltip
-  var Y_AXIS = 'Grade, Relative to Average'; // y-axis label and label in tooltip
+  var X_AXIS = 'Median Household Income, USD'; // x-axis label, label in tooltip
+  var Y_AXIS = 'Grade, Relative to Average'; // y-axis label, label in tooltip
 
   var SHOW_GRID = true; // `true` to show the grid, `false` to hide
 
